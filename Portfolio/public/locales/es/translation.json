@@ -1,0 +1,20 @@
+{
+  "description": {
+    "part1": "Edite <1>src/App.js</1> y guarda para cargar.",
+    "part2": "Apprender React"
+  },
+  "counter_one": "Cambió de idioma solo una vez",
+  "counter_other": "Ya cambié de idioma {{count}} veces",
+  "footer": {
+    "date": "Hoy es {{date, DATE_HUGE}}",
+    "date_morning": "¡Buenos días! Hoy es {{date, DATE_HUGE}} | Que tenga un lindo día!",
+    "date_afternoon": "¡Buenas tardes! Hoy es {{date, DATE_HUGE}}",
+    "date_evening": "¡Buenas noches! Hoy fue {{date, DATE_HUGE}}"
+  },
+  "routes":{
+    "home": "Página principal",
+    "projects": "Proyectos",
+    "articles": "Artículos",
+    "about": "¿Quien soy?"
+  }
+}
