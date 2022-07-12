@@ -32,8 +32,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Welcome to React Router!</h1>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="portfolio/" element={<Home />} />
+          <Route path="portfolio/about" element={<About />} />
         </Routes>
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -63,7 +63,7 @@ function Home() {
         <p>You can do this, I believe in you.</p>
       </main>
       <nav>
-        <Link to="/about">About</Link>
+        <Link to="/portfolio/about">About</Link>
       </nav>
     </>
   );
@@ -80,7 +80,7 @@ function About() {
         </p>
       </main>
       <nav>
-        <Link to="/">Home</Link>
+        <Link to="/portfolio">Home</Link>
       </nav>
     </>
   );
