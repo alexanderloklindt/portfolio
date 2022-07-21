@@ -1,0 +1,15 @@
+.loginModalForm {
+position: absolute;
+top: 50%;
+right: 50%;
+padding: 100px;
+z-index: 10;
+}
+
+.loginModalContainer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.3);
+    z-index: 9;
+}

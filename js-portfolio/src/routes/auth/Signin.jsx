@@ -13,6 +13,7 @@ const Signin = () => {
   const { signIn } = UserAuth();
 
   let from = location.state?.from?.pathname || "/";
+  console.log('hey '+from);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -33,7 +34,7 @@ const Signin = () => {
   return (
     <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.4 }}>
       <div>
-        <p>You must log in to view the page at {from}</p>
+        <p>You must loggge in to view the page at {from}</p>
       </div>
       <form onSubmit={handleSubmit}>
         <div>

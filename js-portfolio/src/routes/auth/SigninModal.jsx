@@ -3,6 +3,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { UserAuth } from '../../context/AuthContext';
 import { motion } from 'framer-motion';
 
+
 const SigninModal = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -11,12 +12,12 @@ const SigninModal = () => {
   const navigate = useNavigate();
   let location = useLocation();
   const { signIn } = UserAuth();
-  let buttonRef = (null);
+  // let buttonRef = (null);
   let from = location.state?.from?.pathname || "/";
 
-  function onDismiss() {
-    navigate(-1);
-  }
+  // function onDismiss() {
+  //   navigate(-1);
+  // }
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -37,7 +38,7 @@ const SigninModal = () => {
   return (
     <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{ duration: 0.4 }}>
       <div>
-        <p>You must log in to view the page at {from}</p>
+        <p>You must loge in to view the page at {from}</p>
       </div>
       <form onSubmit={handleSubmit}>
         <div>
