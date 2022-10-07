@@ -1,7 +1,7 @@
 let PROJECTS = [
   {
     id: 0,
-    protected: true,
+    protected: false,
     title: "Enjoying a cup of coffee",
     src: "https://images.unsplash.com/photo-1631016800696-5ea8801b3c2a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzMzM2Mzg4Ng&ixlib=rb-1.2.1&q=80&w=400",
   },
@@ -13,7 +13,7 @@ let PROJECTS = [
   },
   {
     id: 2,
-    protected: true,
+    protected: false,
     title: "Dalmatian and pumpkins",
     src: "https://images.unsplash.com/photo-1633289944756-6295be214e16?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzMzM2NDA3Nw&ixlib=rb-1.2.1&q=80&w=400",
   },
