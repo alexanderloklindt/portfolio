@@ -2,13 +2,13 @@ let PROJECTS = [
   {
     id: 0,
     protected: false,
-    title: "Enjoying a cup of coffee",
+    title: "Enjoying a cup of coffeeeeee",
     src: "https://images.unsplash.com/photo-1631016800696-5ea8801b3c2a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzMzM2Mzg4Ng&ixlib=rb-1.2.1&q=80&w=400",
   },
   {
     id: 1,
     protected: false,
-    title: "Magical winter sunrise",
+    title: "Magical winter sunriseeeee",
     src: "https://images.unsplash.com/photo-1618824834718-92f8469a4dd1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzMzM2NDAzMw&ixlib=rb-1.2.1&q=80&w=400",
   },
   {
